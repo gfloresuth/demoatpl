@@ -1,0 +1,35 @@
+{
+  "name": "demoatpl",
+  "version": "1.0.0",
+  "description": "Demo de atpl y expressp",
+  "main": "index.js",
+  "dependencies": {
+    "express": "latest",
+    "atpl": "latest",
+    "body-parser":"latest",
+    "knex": "^0.12.7",
+    "mysql": "^2.13.0",
+    "restify":"latest"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfloresuth/demoatpl.git"
+  },
+  "keywords": [
+    "listado",
+    "knex",
+    "mysql"
+  ],
+  "author": "Gustavo Adolfo Flores González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfloresuth/demoatpl/issues"
+  },
+  "homepage": "https://github.com/gfloresuth/demoatpl#readme"
+}
